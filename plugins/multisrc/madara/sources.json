@@ -598,5 +598,15 @@
       "lang": "English",
       "useNewChapterEndpoint": true
     }
+  },
+  {
+    "id": "lulobox",
+    "sourceSite": "https://lulobox.cc/",
+    "sourceName": "Lulobox",
+    "options": {
+      "lang": "English",
+      "useNewChapterEndpoint": true,
+      "customJs": "document.querySelectorAll('.popular-slider').forEach((ad) => ad.remove());[...document.querySelectorAll('.text-left')].slice(1).forEach((promotion) => promotion.remove())"
+    }
   }
 ]
